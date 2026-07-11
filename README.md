@@ -9,9 +9,6 @@ This project focuses on continuous control for robotic manipulation. Using the `
 
 ## 🎬 Architecture & Visual Demonstration
 
-### Robotic Agent in Action
-![Robotic Arm Manipulation](assets/robot_demo.gif)
-
 ### Core Stack
 * **Physics Simulator:** PyBullet
 * **Environment Framework:** Gymnasium (`FetchPickAndPlace-v4`)
@@ -31,7 +28,7 @@ The agent was trained for **100,000 timesteps**. In reinforcement learning pick-
 
 As shown in the learning curve below, the agent initially underwent a heavy exploration phase (bottoming at a cumulative reward of -100). Around **60k timesteps**, a critical policy breakthrough occurred, leading to successful convergence and stable episodic returns peaking at **-88**.
 
-![Learning Curve](assets/learning_curve.png)
+![Learning Curve](learning_curve.png)
 
 ---
 
@@ -40,12 +37,15 @@ As shown in the learning curve below, the agent initially underwent a heavy expl
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/achraf25-ctrl/Robotic-Arm-RL-PPO.git](https://github.com/achraf25-ctrl/Robotic-Arm-RL-PPO.git)
-2.Install dependencies:
-   pip install -r requirements.txt
-3.Run Training / Evaluation:
-  python main.py
-  
-  🚀 Future Research Directions (Sim-to-Real)
+Install dependencies:
+
+Bash
+pip install gymnasium pybullet stable-baselines3[extra] matplotlib numpy
+Run Training / Evaluation:
+
+Bash
+python train_ppo.py
+🚀 Future Research Directions (Sim-to-Real)
 Domain Randomization: Introducing variability in friction, object mass, and visual textures to prepare the policy for real-world deployment.
 
 Algorithm Comparison: Benchmarking PPO against off-policy methods like SAC (Soft Actor-Critic) to analyze sample efficiency.
