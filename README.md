@@ -59,5 +59,5 @@ Achraf Ismaili Alaoui
 Engineering Student — Robotics & Connected Objects
 ENIAD, Berkane, Morocco
 
-🔗 [GitHub](https://github.com/achraf25-ctrl) | 
+🔗 GitHub ; https://github.com/achraf25-ctrl
 🔗 Linkden : https://www.linkedin.com/in/achraf-ismaili-alaoui-355b62368/
