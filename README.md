@@ -8,6 +8,11 @@ This project focuses on continuous control for robotic manipulation. Using the `
 ---
 
 ## 🎬 Architecture & Visual Demonstration
+Watch the trained agent in action:
+"https://www.youtube.com/watch?v=RZhvof8siX4"
+> The video shows the robot arm successfully 
+> reaching and grasping target objects after 
+> training with PPO.
 
 ### Core Stack
 * **Physics Simulator:** PyBullet
