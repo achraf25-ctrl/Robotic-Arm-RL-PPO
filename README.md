@@ -54,3 +54,10 @@ python train_ppo.py
 Domain Randomization: Introducing variability in friction, object mass, and visual textures to prepare the policy for real-world deployment.
 
 Algorithm Comparison: Benchmarking PPO against off-policy methods like SAC (Soft Actor-Critic) to analyze sample efficiency.
+## 👤 Author
+Achraf Ismaili Alaoui
+Engineering Student — Robotics & Connected Objects
+ENIAD, Berkane, Morocco
+
+🔗 [GitHub](https://github.com/achraf25-ctrl) | 
+🔗 Linkden : https://www.linkedin.com/in/achraf-ismaili-alaoui-355b62368/
